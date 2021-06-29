@@ -1,0 +1,21 @@
+{
+  "name": "usbkeyboard",
+  "version": "1.0.0",
+  "description": "USBKeyboard",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "usbmux": "^0.1.0"
+  },
+  "devDependencies": {
+    "bplist-parser": "^0.2.0",
+    "standard": "^16.0.4"
+  }
+}
